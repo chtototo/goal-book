@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400,500;600,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;900&display=swap');
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
@@ -91,4 +91,33 @@ body {
     font-weight: 600;
     font-size: 50px;
     padding: 40px 0;
+}
+
+.goal_progress {
+    text-align: center;
+}
+
+.button-add_goal {
+    margin: 20px 10px;
+    display: flex;
+    border-radius: 25px;
+    border-width: 0;
+    box-shadow: 0 3px 10px #bdbdbd;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.goal {
+    display: block;
+    box-shadow: 0 3px 10px #bdbdbd;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.goal-item-icon {
+    width: 30px;
+    display: flex;
+    margin-right: 10px;
+    color: #b0b0b0;
 }
